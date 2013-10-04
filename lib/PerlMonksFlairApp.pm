@@ -7,7 +7,7 @@ use GD;
 set logger => 'file';
 set log => info;
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 get '/' => sub {
     return template 'index';
@@ -110,7 +110,7 @@ Once you install this module, all you need to do is :
 
 Open your browser and try C<http://localhost:1234/your_perlmonks_username.jpg> 
 and you should see an appropriate flair badge. This is an example of running 
-on the L<Dancer> standalone framework. You could of course run it on a number 
+on the L<Dancer> standalone server. You could of course run it on a number 
 of other servers including Apache and what not.
 
 I used the nifty L<Dancer> web framework, do checkout L<Dancer2> for an even
@@ -122,7 +122,7 @@ The whole thing runs on a L<CentOS|http://www.centos.org/> box.
 =head1 AUTHOR
  
 Gideon Israel Dsouza, C<< <gideon at cpan.org> >>, L<http://www.gideondsouza.com>
-The artwork for this project was done by L<Jennifer Leigh Holt | http://jenniferleigh.ca/> 
+The artwork for this project was done by L<Jennifer Leigh Holt|http://jenniferleigh.ca/> 
 
 =head1 SUPPORT and BUGS
  
@@ -131,7 +131,7 @@ L<https://github.com/gideondsouza/perlmonksflair/issues/new>.
  
 =head1 ACKNOWLEDGEMENTS
  
-The artwork for this project was done by L<Jennifer Leigh Holt | http://jenniferleigh.ca/>
+The artwork for this project was done by L<Jennifer Leigh Holt|http://jenniferleigh.ca/>
  
 =head1 LICENSE AND COPYRIGHT
  

@@ -1,5 +1,5 @@
 {
-   "abstract" : "A neat way to share your achievments on perlmonks.org",
+   "abstract" : "A neat way to share your achievements on perlmonks.org",
    "author" : [
       "Gideon Israel Dsouza <gideon@cpan.org>"
    ],
@@ -51,5 +51,5 @@
          "url" : "https://github.com/gideondsouza/perlmonksflair"
       }
    },
-   "version" : "0.1"
+   "version" : "0.2"
 }
